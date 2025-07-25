@@ -29,5 +29,5 @@ app.listen(PORT,()=>{
 
 //route//
 app.use('/',(req,res)=>{
-    res.send("<h1> welcome t0 FOODY")
+    res.send("<h1> WELCOME TO FOODY")
 })
