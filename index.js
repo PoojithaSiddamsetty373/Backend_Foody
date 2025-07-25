@@ -8,7 +8,7 @@ const productRoutes=require("./routes/productRoutes");
 const path= require('path');
 
 const app= express()//inserting express into app//
-const PORT=4000;
+const PORT=process.env.PORT || 4000;
 
 dotenv.config();//access values in .env//
 
@@ -28,6 +28,6 @@ app.listen(PORT,()=>{
 })
 
 //route//
-app.use('/home',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("<h1> welcome t0 FOODY")
 })
