@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
+
+
+  
   "keywords": [],
   "author": "Pooja",
   "license": "ISC",
@@ -14,27 +17,12 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "body-parser": "^2.2.0",
-<<<<<<< HEAD
     "cors": "^2.8.5",
-=======
->>>>>>> f53529387ea08cb9fd5daa3dffb051c627f4ee11
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.4",
     "multer": "^2.0.2",
     "nodemon": "^3.1.10"
-<<<<<<< HEAD
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PoojithaSiddamsetty373/Backend_Foody.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PoojithaSiddamsetty373/Backend_Foody/issues"
-  },
-  "homepage": "https://github.com/PoojithaSiddamsetty373/Backend_Foody#readme"
-=======
   }
->>>>>>> f53529387ea08cb9fd5daa3dffb051c627f4ee11
-}
+  }
