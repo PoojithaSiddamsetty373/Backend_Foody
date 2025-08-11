@@ -15,12 +15,12 @@ const app= express()//inserting express into app//
 
 dotenv.config();//access values in .env//
  app.use(cors({
-  origin: 'http://localhost:5173', // allow your frontend
+  origin: 'http://localhost:5174', // allow your frontend
   credentials: true
 }));
 
 mongoose.connect(process.env.MONGO_URI)
-.then(()=> 
+.then(()=>
     console.log("Mongodb connected successfully!"))
 .catch((error)=>
     console.log(error))
